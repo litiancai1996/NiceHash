@@ -1,0 +1,176 @@
+{
+  "use_user_settings": false,
+  "group_mining_pairs_only_with_compatible_options": true,
+  "ignore_default_value_options": true,
+  "general_options": [
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_threads",
+      "short_name": "-t",
+      "long_name": "--threads=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_cpu_affinity",
+      "short_name": null,
+      "long_name": "--cpu-affinity",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_cpu_priority",
+      "short_name": null,
+      "long_name": "--cpu-priority",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_cpu_max_threads",
+      "short_name": null,
+      "long_name": "--cpu-max-threads-hint=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_cpu_mem_pool",
+      "short_name": null,
+      "long_name": "--cpu-memory-pool=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "xmrig_cpu_no_yield",
+      "short_name": null,
+      "long_name": "--cpu-no-yield",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "xmrig_no_huge_pages",
+      "short_name": null,
+      "long_name": "--no-huge-pages",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_asm",
+      "short_name": null,
+      "long_name": "--asm=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_rx_init",
+      "short_name": null,
+      "long_name": "--randomx-init=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "xmrig_rx_no_numa",
+      "short_name": null,
+      "long_name": "--randomx-no-numa",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_rx_mode",
+      "short_name": null,
+      "long_name": "--randomx-mode=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_wrmsr",
+      "short_name": null,
+      "long_name": "--randomx-wrmsr=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "xmrig_no_rdmsr",
+      "short_name": null,
+      "long_name": "--randomx-no-rdmsr",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_donate_level",
+      "short_name": null,
+      "long_name": "--donate-level=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_user_agent",
+      "short_name": null,
+      "long_name": "--user-agent",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "xmrig_background",
+      "short_name": "-B",
+      "long_name": "--background",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_config",
+      "short_name": "-c",
+      "long_name": "--config=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_log",
+      "short_name": "-l",
+      "long_name": "--log-file=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_print_time",
+      "short_name": null,
+      "long_name": "--print-time=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "xmrig_health_print_time",
+      "short_name": null,
+      "long_name": "--health-print-time=",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "xmrig_no_color",
+      "short_name": null,
+      "long_name": "--no-color",
+      "default_value": null,
+      "delimiter": null
+    }
+  ],
+  "temperature_options": null
+}

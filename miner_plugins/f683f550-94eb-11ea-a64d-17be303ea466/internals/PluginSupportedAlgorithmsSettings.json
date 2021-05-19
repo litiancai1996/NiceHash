@@ -1,0 +1,96 @@
+{
+  "use_user_settings": false,
+  "enable_unsafe_RAM_limits": false,
+  "default_fee": 2.0,
+  "algorithm_fees": {
+    "DaggerHashimoto": 1.0,
+    "Octopus": 3.0
+  },
+  "device_algorithms": {
+    "NVIDIA": [
+      {
+        "IDs": [
+          39
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          43
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          20
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          52
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": 4294967296
+      },
+      {
+        "IDs": [
+          50
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          54
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          56
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": 5368709120
+      }
+    ],
+    "AMD": [
+      {
+        "IDs": [
+          52
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": 4294967296
+      },
+      {
+        "IDs": [
+          20
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      }
+    ]
+  },
+  "plugin_algorithm_name": {
+    "GrinCuckatoo31": "cuckatoo",
+    "CuckooCycle": "cuckoo_ae",
+    "DaggerHashimoto": "ethash",
+    "KAWPOW": "kawpow",
+    "GrinCuckatoo32": "cuckatoo32",
+    "BeamV3": "beamv3",
+    "Octopus": "octopus"
+  }
+}

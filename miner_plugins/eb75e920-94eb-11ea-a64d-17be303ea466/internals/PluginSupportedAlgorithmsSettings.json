@@ -1,0 +1,59 @@
+{
+  "use_user_settings": false,
+  "enable_unsafe_RAM_limits": false,
+  "default_fee": 1.0,
+  "algorithm_fees": {
+    "DaggerHashimoto": 0.7
+  },
+  "device_algorithms": {
+    "AMD": [
+      {
+        "IDs": [
+          39
+        ],
+        "Enabled": false,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": 7516192768
+      },
+      {
+        "IDs": [
+          50
+        ],
+        "Enabled": false,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          36
+        ],
+        "Enabled": false,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          54
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": 3221225472
+      },
+      {
+        "IDs": [
+          20
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      }
+    ]
+  },
+  "plugin_algorithm_name": {
+    "GrinCuckatoo31": "C31",
+    "GrinCuckatoo32": "C32",
+    "ZHash": "EQUI144_5",
+    "BeamV3": "BEAM-III",
+    "DaggerHashimoto": "ETHASH"
+  }
+}

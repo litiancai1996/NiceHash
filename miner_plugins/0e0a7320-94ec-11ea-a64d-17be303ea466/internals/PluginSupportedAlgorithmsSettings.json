@@ -1,0 +1,21 @@
+{
+  "use_user_settings": false,
+  "enable_unsafe_RAM_limits": false,
+  "default_fee": 1.0,
+  "algorithm_fees": null,
+  "device_algorithms": {
+    "CPU": [
+      {
+        "IDs": [
+          47
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": "--cpu-priority 0",
+        "NonDefaultRAMLimit": null
+      }
+    ]
+  },
+  "plugin_algorithm_name": {
+    "RandomXmonero": "rx/0"
+  }
+}

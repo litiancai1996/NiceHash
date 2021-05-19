@@ -1,0 +1,25 @@
+{
+  "DeviceUUID": "CPU-c3de0552-e1eb-59e2-94c8-96b5d37c3db8",
+  "DeviceName": "Intel(R) Core(TM) i7-1068NG7 CPU @ 2.30GHz",
+  "Enabled": true,
+  "MinimumProfit": 0.0,
+  "TDPSettings": {
+    "SettingType": "UNSUPPORTED",
+    "Simple": null,
+    "Percentage": null
+  },
+  "PluginAlgorithmSettings": [
+    {
+      "Name": "XMRig",
+      "PluginUUID": "0e0a7320-94ec-11ea-a64d-17be303ea466",
+      "PluginVersion": "16.0",
+      "AlgorithmIDs": "RandomXmonero",
+      "Speeds": [
+        0.0
+      ],
+      "ExtraLaunchParameters": "--cpu-priority 0",
+      "Enabled": true,
+      "PowerUsage": 0.0
+    }
+  ]
+}
